@@ -1,0 +1,23 @@
+{
+  "name": "8bitstudio-ch/enable-acf-json",
+  "type": "wordpress-muplugin",
+  "license": "MIT",
+  "description": "Saves field group and field settings as .json files in /app/json folder",
+  "authors": [
+    {
+      "name": "Mathieu Zwygart",
+      "email": "mathieu@zwygart.net",
+      "homepage": "https://github.com/mzwygart"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+    "acf"
+  ],
+  "support": {
+    "issues": "https://github.com/8bitstudio-ch/enable-acf-json/issues"
+  },
+  "require": {
+    "php": ">=7.1"
+  }
+}
