@@ -2,7 +2,7 @@
 /*
 Plugin Name:  Enable ACF Local JSON
 Plugin URI:   https://8bitstudio.ch
-Description:  Saves field group and field settings as .json files in /app/json folder
+Description:  Saves field group and field settings as .json files in /app/acf-json folder
 Version:      1.2.0
 Author:       Mathieu Zwygart
 Author URI:   https://zwygart.net
