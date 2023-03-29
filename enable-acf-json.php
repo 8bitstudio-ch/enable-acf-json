@@ -13,7 +13,7 @@ add_filter('acf/settings/save_json', 'my_acf_json_save_point');
  
 function my_acf_json_save_point( $path ) {  
 	// update path
-	$path = dirname(__DIR__, 1) . '/acf-json';
+	$path = dirname(__DIR__, 2) . '/acf-json';
 	
 	// return
 	return $path;
@@ -26,7 +26,7 @@ function my_acf_json_load_point( $paths ) {
 	unset($paths[0]);
 
 	// append path
-	$paths[] = dirname(__DIR__, 1) . '/acf-json';
+	$paths[] = dirname(__DIR__, 2) . '/acf-json';
 
 	// return
 	return $paths;
